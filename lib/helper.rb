@@ -1,0 +1,55 @@
+class Helper
+
+    Help = "
+    ================================================
+    [ COMMAND ]                [ RESULT ]
+    ================================================
+    > list [type]                
+         all                  - show all profiles
+         enforce              - show enforce
+         complain             - show complain
+    
+    > search [string]         - search for a
+                                profile matching
+                                string
+    
+    > generate [name] <flag>  - generate prof
+                                with given name
+         -m                   - launch generate
+                                in manual mode
+    
+    > log_search <flag>       - search for DENIED
+                                processes in logs
+         -d                   - search on the
+                                day's log
+         -n                   - search on the
+                                previous N days log
+    
+    > change_prof <m> [prof]  - change 'prof' in mode
+                                specified with 'm'
+         -e                   - change in Enforce
+         -c                   - change in Complain
+    
+    
+    > help                    - print help
+                               (used after a cmd
+                               shows cmd usage)
+    
+    > exit                    - exit
+    "
+
+    Banner = "
+    ================================================
+                                __
+                        _____   __|
+                       |  _  | |__ 
+                       |     |
+                       |__|__|
+       _____ _____ _____ _____ _____ __    _____
+      |     |     |   | |   __|     |  |  |   __|
+      |   --|  |  | | | |__   |  |  |  |__|   __|
+      |_____|_____|_|___|_____|_____|_____|_____|
+    
+    ================================================
+                                                     "
+end

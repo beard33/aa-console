@@ -1,0 +1,26 @@
+PATH
+  remote: .
+  specs:
+    aa-console (0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    io-console (0.5.3)
+    rake (10.5.0)
+    readline (0.0.1)
+      reline
+    reline (0.1.1)
+      io-console (~> 0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aa-console!
+  bundler (~> 2.0)
+  rake (~> 10.0)
+  readline (~> 0.0.1)
+
+BUNDLED WITH
+   2.0.2
