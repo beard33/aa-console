@@ -30,6 +30,11 @@ class Prompt
       puts 'Please install and enable AppArmor'
     end
     puts SetColor.green('[ ✓ ]')
+    unless self.check_auditd
+      puts SetColor.yellow("Auditd is not installed. You can't use log reading command \nProceed anyway? [Y/n]")
+      ans = gets.chomp
+      exit 0 if %w[n N No no NO].include?(ans)
+    end
   end
 
 
@@ -42,6 +47,11 @@ class Prompt
   def check_uid
     Process.uid.zero?
   end
+
+  def check_auditd
+    File.exists?('/var/log/audit/audit.log')
+  end
+
 end
 
 
