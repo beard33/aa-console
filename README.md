@@ -1,4 +1,4 @@
-# A<sup>2</sup>Console ![GitHub top language](https://img.shields.io/github/languages/top/beard33/aa_console.svg?color=9b111e&label=Ruby) ![GitHub](https://img.shields.io/github/license/beard33/aa_console.svg?color=0078d7)
+# A<sup>2</sup>Console ![GitHub top language](https://img.shields.io/github/languages/top/beard33/aa-console.svg?color=9b111e&label=Ruby) ![GitHub](https://img.shields.io/github/license/beard33/aa-console.svg?color=0078d7)
 
 A<sup>2</sup>console is a CLI tool that helps with AppArmor management; It simplifies the basic AppArmor operations and adds some custom commands (e.g. `log_search`) </br>
 
