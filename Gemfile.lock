@@ -7,7 +7,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     io-console (0.5.3)
-    rake (10.5.0)
+    rake (13.0.1)
     readline (0.0.1)
       reline
     reline (0.1.1)
@@ -19,7 +19,7 @@ PLATFORMS
 DEPENDENCIES
   aa-console!
   bundler (~> 2.0)
-  rake (~> 10.0)
+  rake (~> 13.0)
   readline (~> 0.0.1)
 
 BUNDLED WITH
