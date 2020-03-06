@@ -4,7 +4,12 @@ A<sup>2</sup>console is a CLI tool that helps with AppArmor management; It simpl
 
 ![](img/start.png)
 
-To have a more detailed explanation of every command and to know how to extends A<sup>2</sup>Console features please refer to the [section below](https://github.com/beard33/aa_console#extend-functionalities)</br>
+Table of content:
+* [Commands](#Commands)
+* [Requirements](#Requirements)
+* [How to install](#How-to-install)
+* [Usage](#Usage)
+* [Extend functionalities](#Extend-functionalities)
 
 ## Commands
 | Command | Result  |
@@ -21,6 +26,17 @@ In order to use `aa_console` you need:
 * **AppArmor** installed and enabled (please refer to the [official wiki](https://gitlab.com/apparmor/apparmor/wikis/home) for installation)
 * **Ruby** installed on your system
 * **Auditd** installed and enabled on your system (the `log_search` command relies on this daemon)
+
+## How to install
+In order to install you have to follow these steps, after you have cloned/downloaded the repository:
+```
+cd ./aa-console
+
+gem build aa-console.gemspec
+
+gem install aa-console
+```
+After that you should have gloabally available the `aa-console` command to start the console
 
 ## Usage
 The main file is the one called `./aa_console.rb` and it **must be run as sudo**. Once the program is running you have just to type `help` to get a command list with description </br>
