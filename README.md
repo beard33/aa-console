@@ -2,8 +2,6 @@
 
 A<sup>2</sup>console is a CLI tool that helps with AppArmor management; It simplifies the basic AppArmor operations and adds some custom commands (e.g. `log_search`) </br>
 
-![](img/start.png)
-
 Table of content:
 * [Commands](#Commands)
 * [Requirements](#Requirements)
